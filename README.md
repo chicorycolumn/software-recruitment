@@ -22,4 +22,4 @@ Furthermore, you are presented with the following requirements by internal stake
  * Only 'active' users should be retrieved. A user is considered 'active' during the time period between their start and end dates.
  * Before user data is stored, it must be validated to ensure that users only register with an '@nhs.' email address. Other email addresses are not permitted.
 
-You may use tools, packages and testing as you feel appropriate and be prepared to discuss your technical solution, methodology, design decisions and any assumotions you have made.
+You may use tools, packages and testing as you feel appropriate and be prepared to discuss your technical solution, methodology, design decisions and any assumptions you have made.
