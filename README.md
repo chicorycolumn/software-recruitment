@@ -23,3 +23,6 @@ Furthermore, you are presented with the following requirements by internal stake
  * Before user data is stored, it must be validated to ensure that users only register with an '@nhs.' email address. Other email addresses are not permitted.
 
 You may use tools, packages and testing as you feel appropriate and be prepared to discuss your technical solution, methodology, design decisions and any assumptions you have made.
+
+Please fork the software-recruitment repository and work on a new branch. 
+Throughout development, you should commit your code with appropriate messaging as you see fit and at the end of the test, please push the completed exercise to the repo to enable us to assess it.
