@@ -1,4 +1,6 @@
 import os
+import re
+from datetime import datetime
 
 import pandas as pd
 
@@ -20,3 +22,16 @@ def save_data(users):
         validated_users.append(user_to_store)
     print(f"Successfully stored the following users:\n ")
     print(validated_users)
+
+
+def get_active_users(user_data):
+    today = datetime.now()
+    return list(filter(lambda user: user['start_date'] <= today <= user['end_date'], user_data))
+
+
+def validate_nhs_email(email: str):
+    return re.search("^[A-Za-z0-9._%+-]+@nhs.[A-Za-z]+$", email)
+
+
+def find_next_id():
+    return max(user["id"] for user in users) + 1
